@@ -1,0 +1,6 @@
+@API_DTIDIGITAL_HostAddress = http://localhost:5290
+
+GET {{API_DTIDIGITAL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

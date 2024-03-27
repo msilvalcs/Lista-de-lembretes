@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "API_DTIDIGITAL.Controllers.LembreteController",
+    "Method": "buscarLembreteEspecifico",
+    "RelativePath": "api/Lembrete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_DTIDIGITAL.Controllers.LembreteController",
+    "Method": "criarNovoLembrete",
+    "RelativePath": "api/Lembrete/Criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novo",
+        "Type": "API_DTIDIGITAL.Entidades.Lembrete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_DTIDIGITAL.Controllers.LembreteController",
+    "Method": "deletarLembrete",
+    "RelativePath": "api/Lembrete/Deletar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_DTIDIGITAL.Controllers.LembreteController",
+    "Method": "buscarTodosLembretes",
+    "RelativePath": "api/Lembrete/Todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
