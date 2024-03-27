@@ -18,4 +18,6 @@ Este projeto é uma aplicação de lista de lembretes desenvolvida em React para
 - Instale as dependências do frontend utilizando npm install na pasta do frontend.
 - Inicie o frontend utilizando npm start.
 - Configure e inicie o backend/API C#.
+- Ao iniciar a aplicação, é importante verificar a disponibilidade da porta onde o servidor local será aberto. Caso a porta especificada já esteja em uso, será necessário selecionar outra porta disponível para evitar conflitos.
+- Durante o início da API, é recomendado acessar o Swagger para visualizar a URL fornecida e identificar qual porta foi utilizada para a execução do servidor. Isso garante que a comunicação entre os componentes seja estabelecida corretamente.
 - Acesse a aplicação em um navegador web utilizando o endereço fornecido pelo frontend.
