@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+## Primeira etapa DTI digital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Descrição
+Este projeto é uma aplicação de lista de lembretes desenvolvida em React e em C# para backend/API. A aplicação permite aos usuários criar, visualizar, editar e excluir lembretes de forma fácil e intuitiva.
 
-## Available Scripts
+# Premissas Assumidas
+- Os usuários terão acesso à internet para utilizar a aplicação.
+- A aplicação será executada em navegadores compatíveis com React.
+- A API será hospedada em um servidor acessível pelos usuários frontend.
 
-In the project directory, you can run:
+# Decisões do projeto
+- Utilização do React e C# por serem tecnologias recomendadas.
+- Implementação de uma arquitetura RESTful para API, proporcionando uma comunicação uniforme e eficiente entre o frontend e o backend.
+- Armazenamento dos lembretes em um banco de dados JSON para simplificar o desenvolvimento, reduzir a complexidade do sistema e permitir fácil manipulação dos dados.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Instruções para executar o sistema
+- Clone repositório do projeto.
+- Crie uma pasta com o nome dti-digital
+- Mova os arquivos public, src, .gitignore, package.json, package-lock.json e README.md para a pasta /dti-digital destinada ao frontend.
+- Navegue até a nova pasta do frontend no terminal.
+- Execute o comando npm install para instalar todas as dependências do projeto.
+- Instale as dependencias do frontend utilizando npm install na pasta do frontend.
+- Inicie o frontend utilizando npm start.
+- Ao iniciar a aplicação, é importante verificar a disponibilidade da porta onde o servidor local será aberto. Caso a porta especificada já esteja em uso, será necessário selecionar outra porta disponível para evitar conflitos.
+- Durante o início da API, é recomendado acessar o Swagger para visualizar a URL fornecida e identificar qual porta foi utilizada para a execução do servidor. Isso garante que a comunicação entre os componentes seja estabelecida corretamente.
+- Acesse a aplicação em um navegador web utilizando o endereço fornecido pelo frontend.
