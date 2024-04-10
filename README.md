@@ -1,6 +1,6 @@
 
 # Descrição
-Este projeto é uma aplicação de lista de lembretes desenvolvida em React para o frontend e C# para o backend/API. A aplicação permite aos usuários criar, visualizar, editar e excluir lembretes de forma fácil e intuitiva.
+Este projeto é uma aplicação de lista de lembretes desenvolvida em React para o frontend e C# para o backend/API. A aplicação permite aos usuários criar, visualizar, editar e excluir lembretes de forma fácil e intuitiva. Foi feito para um processo seletivo.
 
 # Premissas Assumidas
 - Os usuários terão acesso à internet para utilizaçãp a aplicação.
