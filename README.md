@@ -1,4 +1,3 @@
-## Primeira etapa DTI digital
 
 # Descrição
 Este projeto é uma aplicação de lista de lembretes desenvolvida em React para o frontend e C# para o backend/API. A aplicação permite aos usuários criar, visualizar, editar e excluir lembretes de forma fácil e intuitiva.
@@ -15,7 +14,7 @@ Este projeto é uma aplicação de lista de lembretes desenvolvida em React para
 
 # Instruções para Executar o Sistema
 - Clone o repositório do projeto.
-- Crie uma pasta com o nome dti-digital
+- Crie uma pasta com o nome listLembrete
 - Mova os arquivos public, src, .gitignore, package.json, package-lock.json e README.md para a pasta /dti_digital destinada ao frontend.
 - Navegue até a pasta /dti-digital do frontend no terminal.
 - Execute o comando npm install para instalar todas as dependências do projeto.
